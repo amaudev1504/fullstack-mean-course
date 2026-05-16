@@ -14,18 +14,18 @@ app.use('/api/stuff', (req, res, next) => { // middleware pour recevoir une rép
     const stuff = [
         {
             _id: 1,
-            title: "Mon premier objet",
+            title: "Caméra Nikon",
             description : "Les infos de mon premier objet",
-            imageUrl: '',
-            price: 1000000000,
+            imageUrl: 'https://cdn.pixabay.com/photo/2014/08/29/14/53/camera-431119_1280.jpg',
+            price: 100000,
             userId: 'squamomo'
         },
         {
             _id: 2,
-            title: "Mon deuxième objet",
+            title: "Batterie DW Collector",
             description : "Les infos de mon deuxième objet",
-            imageUrl: '',
-            price: 2000000000,
+            imageUrl: 'https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_1280.jpg',
+            price: 500000,
             userId: 'squamomo'
         },
     ];
