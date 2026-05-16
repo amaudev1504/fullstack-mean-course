@@ -1,10 +1,10 @@
 
 // Ce programme attend des requêtes http et va y répondre
 const http = require('http'); // On importe le package http de node
-const app = require('./app');
+const app = require('./app'); // On utilise l'application Express JS
 
 const normalizePort = val => { // Renvoie un port valide, qu'il soit fourni sous la forme d'un numéro ou d'une chaîne
-    const port = parseInt(val, 10);
+    const port = parseInt(val, 10); // On convertit la valeur en nombre entier. Le 10 signifie qu'on utilise le base 10 et donc les chiffres de 0 à 9
   
     if (isNaN(port)) { // Si le port n'est pas un numéro (une chaîne de caractères)
       return val; // Retourner la valeur en paramètres

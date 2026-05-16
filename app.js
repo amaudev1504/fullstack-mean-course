@@ -9,6 +9,7 @@ app.use((req, res, next) => { // middleware pour accepter le Cross Origin Ressou
     next();
 });
 
+// route GET
 app.use('/api/stuff', (req, res, next) => { // middleware pour recevoir une réponse à partir d'une route GET (on met en paramètres la route en plus du reste)
     const stuff = [
         {
